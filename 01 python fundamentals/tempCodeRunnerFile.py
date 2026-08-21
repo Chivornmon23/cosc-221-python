@@ -1,0 +1,1 @@
+print(capitals.get("USA"))
