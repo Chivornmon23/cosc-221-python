@@ -11,6 +11,7 @@ s1 = set() # Create set with empty element
 s2 = set([1,2,4]) # Create a set from a tuple
 s3 = set({x*2 for x in range (1, 10)}) # Create a set from a list
 
+
 # You cannot access items in a set by referring to an index or a key. 
 # but you can loop through the set items using a for loop or ask if a specified value 
 # is present in a set, by using the in keyword. 
@@ -28,16 +29,23 @@ my_set.add("Orange")
 print(my_set)
 
 #Concatenation Set
+set1 = {"Messi", "Ronaldo", "Neymar"}
+set2 = {"Messi", 19, 29, 39}
 
 #There are several ways to join two or more sets in Python. 
 # The union () and update() methods joiins all items from both sets
 
+set3 = set1.union(set2)
+print(set3)
 
 # The intersection () method keeps only the duplicates. 
-
+set4 = set1.intersection(set2)
+print(set4)
 
 # The difference() method keeps the items from the first set that are in the other set(s)
 
-
+set5 = set1.difference(set2)
+print(set5)
 # The symmetric_difference() method keeps all items EXCEPT the duplicates. 
-
+set6 = set1.symmetric_differencedifference(set2)
+print(6)
