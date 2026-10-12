@@ -1,6 +1,5 @@
 import hashlib
 
-
 class PasswordManager:
     def __init__(self):
         self.user_data = {}  # Hash table mapping username -> sha256_hash[cite: 7]
@@ -9,16 +8,12 @@ class PasswordManager:
         return hashlib.sha256(password.encode('utf-8')).hexdigest()
 
     def register(self, username: str, password: str) -> bool:
-        """Return False if username exists, else store hash and return True."""
-        # Traced manually for code comprehension and study.
         if username in self.user_data:
             return False
         self.user_data[username] = self.hash_password(password)
         return True
 
     def login(self, username: str, password: str) -> bool:
-        """Verify username exists and compare password hash."""
-        # Traced manually for code comprehension and study.
         if username not in self.user_data:
             return False
         return self.user_data[username] == self.hash_password(password)
