@@ -33,19 +33,20 @@ class Playlist:
     def add_song(self, song_name):
         new_song = SongNode(song_name)
         if not self.head:  # If the playlist is empty
-            self.head = new_song
-        else:
-            current_song = self.head
-            while current_song.next:  # Traverse to the last song
-                current_song = current_song.next
-            current_song.next = new_song  # Add the new song at the end
+            self.head = new_song # Song A
+        else: # If the playlist is not empty
+            current_song = self.head # current_song = Song A # The current_song starts at the first song
+            while current_song.next:  # Traverse to the last song (while current_song.next is not None)
+                current_song = current_song.next # current_song = Song A.next; Song B.next
+            current_song.next = new_song  # Add the new song at the end # current_song.next = Song C
     
     # Play the next song in the playlist
     def play_next(self):
         if not self.head:
             print("No songs in the playlist.")
         else:
-            print(f"Now playing: {self.head.song_name}")
+            print(f"Now playing: {self.head.song_name}") # self.head refers to the first node
+            # self.head.song_name gets the node's song name
             self.head = self.head.next  # Move to the next song
 
 # Example usage
