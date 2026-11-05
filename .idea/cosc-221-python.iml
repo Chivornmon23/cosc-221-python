@@ -4,6 +4,7 @@
     <content url="file://$MODULE_DIR$">
       <excludeFolder url="file://$MODULE_DIR$/.venv" />
       <excludeFolder url="file://$MODULE_DIR$/Lab/08 Lab/.venv" />
+      <excludeFolder url="file://$MODULE_DIR$/Python_libraries/.venv" />
     </content>
     <orderEntry type="jdk" jdkName="~\Desktop\FALL'26\Computer Science B\cosc-221-python\.venv" jdkType="Python SDK" />
     <orderEntry type="sourceFolder" forTests="false" />
