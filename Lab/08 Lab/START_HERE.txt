@@ -1,0 +1,14 @@
+1. Extract the entire ZIP. Open the extracted folder in your editor.
+2. Use Python 3.10 or newer. Open a terminal in this folder.
+3. Install once: python -m pip install -r requirements.txt
+4. Check setup: python setup_check.py
+5. Work in lab_starter.py throughout class. After each edit, save and run:
+   python lab_starter.py
+6. Follow the practice pauses on slides 9, 17, 25, 33, 42, and 47.
+8. Check both output CSVs, the chart, and reflections before submitting.
+
+Use python3 if that is your Python command. Installation needs internet once.
+Data contains 12 fictional students. Keep data/ beside the Python files.
+Do not change student_scores.csv. The starter creates outputs/ automatically.
+Parts 1-5 match the five sections in the starter. Setup is a separate pause.
+Close the chart window so the script can finish the Science filter in Part 5.

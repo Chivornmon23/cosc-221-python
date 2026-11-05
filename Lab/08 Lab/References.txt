@@ -1,0 +1,11 @@
+https://docs.python.org/3/tutorial/modules.html
+https://numpy.org/doc/stable/user/absolute_beginners.html
+https://pandas.pydata.org/docs/getting_started/intro_tutorials/02_read_write.html
+https://pandas.pydata.org/docs/getting_started/intro_tutorials/03_subset_data.html
+https://pandas.pydata.org/docs/getting_started/intro_tutorials/06_calculate_statistics.html
+https://pandas.pydata.org/docs/user_guide/missing_data.html
+https://matplotlib.org/stable/tutorials/pyplot.html
+https://matplotlib.org/stable/api/_as_gen/matplotlib.pyplot.savefig.html
+https://scikit-learn.org/stable/getting_started.html
+
+The score records and plant data are fictional classroom examples.
