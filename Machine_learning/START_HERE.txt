@@ -1,0 +1,6 @@
+1. Extract the whole student ZIP.
+2. Read Linear_Regression_Lab.pdf.
+3. Install requirements, run setup_check.py, then python lab_starter.py.
+4. Follow the lecture pauses and Class_Follow_Along.txt.
+5. Complete the TODOs, checklist, reflections and output files.
+6. Explain the results using the four reflection questions.

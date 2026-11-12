@@ -1,0 +1,19 @@
+PREDICT BEFORE RUNNING
+Action / 4: I think these games will appear:
+After running: what matched my prediction, or what did I correct?
+
+BEFORE CHANGING THE STARTING BUDGET
+All / 6: predicted game count and games excluded:
+After a fresh start: actual starting value and game count:
+Why did the displayed results change?
+
+CHECKS
+[ ] All / 4 tokens: 7 games, mean rating 4.30 / 5.
+[ ] Action / 4: Laser Dash and Zombie Pop; 2 games, mean 4.40 / 5.
+[ ] Puzzle / 3: Pixel Puzzle and Candy Logic; 2 games, mean 4.30 / 5.
+[ ] Racing / 3: Kart Chaos only; 1 game, mean 4.30 / 5.
+[ ] All / 0: 0 games, warning and empty table; no mean or chart.
+[ ] All / 10: 12 games, mean 4.43 / 5.
+[ ] Count, mean, table and chart use the same matching rows.
+[ ] Save your own Action / 4 screenshot showing controls, metrics and table.
+[ ] Changed the slider starting budget to 6 in my script and checked a fresh session.

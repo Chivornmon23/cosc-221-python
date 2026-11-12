@@ -1,0 +1,39 @@
+Name: Chivorn Mon
+Student ID: 2025660
+
+1. Identify X and y. Why must ExamScore stay out of X?
+- X (input feature): StudyHours
+- y (target variable): ExamScore
+ExamScore must stay out of X because it is the value we want the model to predict.
+If we include it as an input, the model would already have access to the answer during training.
+This causes data leakage and makes the model's evaluation unreliable.
+2. Why split before fitting? What does random_state=42 reproduce, and what does it NOT guarantee?
+We split the dataset into training and testing sets before fitting so the model learns from one portion
+of the data and is evaluated on records it has not seen during training.
+
+random_state=42 makes the random split reproducible. When we run the same split with the same dataset
+and settings, we get the same training and testing records.
+
+However, it does not guarantee that:
+- The model will make accurate predictions.
+- The dataset represents real-world students.
+- The model will perform equally well on a different dataset.
+3. Interpret model MAE. Is it smaller than baseline MAE?
+The model's MAE is 2.62 score points, meaning its predictions differ from the actual exam scores by an
+average absolute amount of approximately 2.62 points on the five held-out test records.
+
+The baseline MAE is 15.08 score points.
+
+Therefore, the linear regression model has a lower MAE than the baseline on the same held-out records.
+This suggests that the model performs better than simply predicting the training-set average for every student.
+
+MAE is measured in score points, not an accuracy percentage.
+4. State one limitation. Does the plot prove causation?
+One limitation is that the dataset contains only 20 fictional student records, which is too small and
+artificial to reliably represent real students.
+
+No, the plot does not prove that additional study hours cause a specific increase in an individual's exam score.
+It only shows an observed relationship between study hours and exam scores in this dataset.
+
+Other factors, such as prior knowledge, study quality, sleep, and exam difficulty, may also influence exam
+performance.

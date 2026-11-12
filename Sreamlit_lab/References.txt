@@ -1,0 +1,8 @@
+Official Streamlit references
+https://docs.streamlit.io/develop/api-reference/widgets/st.selectbox
+https://docs.streamlit.io/develop/api-reference/widgets/st.slider
+https://docs.streamlit.io/develop/api-reference/data/st.metric
+https://docs.streamlit.io/develop/api-reference/charts/st.bar_chart
+https://docs.streamlit.io/develop/api-reference/data/st.dataframe
+Data: 12 fictional arcade games created for this lab. Tokens are per play; ratings are out of 5.
+Screenshots: actual completed solution using the included CSV.

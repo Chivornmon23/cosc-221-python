@@ -1,0 +1,9 @@
+Name:
+1. When you move the budget slider, what does Streamlit do, and how does that change the results?
+Answer:
+
+2. Why do the count, mean and chart use filtered rather than the original df?
+Answer:
+
+3. What happens at a budget of 0, and why should the mean and chart be hidden?
+Answer:

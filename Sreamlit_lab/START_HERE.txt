@@ -1,0 +1,15 @@
+ARCADE NIGHT - STREAMLIT LAB
+1. Extract the entire ZIP. Read Streamlit_Lab.pdf.
+2. Open a terminal in this folder:
+   python -m pip install -r requirements.txt
+   python setup_check.py
+   python -m streamlit run app_starter.py
+3. Open the Local URL. Keep the terminal running.
+4. Complete Parts 1-4, save, and rerun when prompted.
+5. Compare with Example_Screenshots.pdf and examples/.
+6. Record predictions before testing. Complete the independent starting-budget
+   change to 6, the checklist and three short reflections.
+7. Submit the lab file list on Canvas by the posted deadline.
+Stop the server with Ctrl+C. Use python3 if that is your usual command.
+Tokens are the maximum price of ONE game, not a total shopping budget.
+The games and ratings are fictional. No deployment or additional page needed.

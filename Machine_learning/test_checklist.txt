@@ -1,0 +1,12 @@
+Name:
+Write PASS/FAIL and an observation for each check.
+
+1. Input has 20 rows, 3 columns, and no missing values.
+2. X contains StudyHours only. Split has 15 training and 5 test rows.
+3. fit uses X_train and y_train; predict uses X_test.
+4. test_predictions.csv has 5 data rows and 4 columns, with no index column.
+5. Manual mean of its AbsoluteError column agrees with printed model MAE.
+6. regression_plot.png shows training/test markers, fitted line, labels,
+   title, legend, and a score axis from 0 to 100.
+7. Running unchanged code again gives the same split and displayed metrics.
+8. metrics.txt includes both MAEs and a prediction for 6.0 hours.
